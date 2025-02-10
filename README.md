@@ -1,7 +1,3 @@
-Here’s a **short README.md** template for your **Co-Founder Matchmaking Express.js** project:
-
----
-
 # Co-Founder Matchmaking Backend (Express.js)
 
 This is the backend API for the **Co-Founder Matchmaking** platform, built with **Express.js**. The platform connects co-founders and startup enthusiasts, providing matchmaking, chat, and profile management features.

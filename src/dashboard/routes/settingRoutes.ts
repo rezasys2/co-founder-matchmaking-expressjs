@@ -1,5 +1,5 @@
 import express from "express";
-import { getSetting, updateSetting } from "../controllers/settingController";
+import { getSetting, updateSetting } from "../controllers/settingController.js";
 
 const router = express.Router();
 

@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "target": "ES6",
-    "module": "CommonJS",
+    "target": "ES2022",  // Modern, stable JavaScript features
+    "module": "Node16",  // Uses new Node.js module system but allows flexibility
     "outDir": "./dist",
     "rootDir": "./src",
     "strict": true,

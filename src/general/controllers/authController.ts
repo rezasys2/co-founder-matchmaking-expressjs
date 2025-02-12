@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import User, { IUser } from "../../models/userModel";
+import User, { IUser } from "../../models/userModel.js";
 import mongoose from "mongoose";
 import jwt from "jsonwebtoken";
 import crypto from "crypto";

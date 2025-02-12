@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
-import Chat, { IChat } from "../../models/chatModel";
-import Message, { IMessage } from "../../models/messageModel";
+import Chat, { IChat } from "../../models/chatModel.js";
+import Message, { IMessage } from "../../models/messageModel.js";
 
 // Get all chat requests with requester and recipient names
 export const getChats = async (req: Request, res: Response) => {

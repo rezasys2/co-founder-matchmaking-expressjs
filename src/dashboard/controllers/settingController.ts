@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import Setting, { ISettings } from "../../models/settingModel";
+import Setting, { ISettings } from "../../models/settingModel.js";
 
 export const getSetting = async (req: Request, res: Response) => {
   try {

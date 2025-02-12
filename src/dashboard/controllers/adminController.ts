@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import Admin, { IAdmin } from "../../models/adminModel";
+import Admin, { IAdmin } from "../../models/adminModel.js";
 import jwt from "jsonwebtoken";
 
 //Login an admin

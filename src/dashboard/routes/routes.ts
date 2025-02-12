@@ -1,8 +1,8 @@
 import express from "express";
-import userRoutes from "./userRoutes";
-import matchRoutes from "./matchRoutes";
-import chatRoutes from "./chatRoutes";
-import settingRoutes from "./settingRoutes";
+import userRoutes from "./userRoutes.js";
+import matchRoutes from "./matchRoutes.js";
+import chatRoutes from "./chatRoutes.js";
+import settingRoutes from "./settingRoutes.js";
 
 const router = express.Router();
 

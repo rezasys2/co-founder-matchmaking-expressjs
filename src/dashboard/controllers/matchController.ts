@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import MatchRequest, { IMatchRequest } from "../../models/matchModel";
+import MatchRequest, { IMatchRequest } from "../../models/matchModel.js";
 
 // Get all match requests with requester and recipient names
 export const getMatch = async (req: Request, res: Response) => {

@@ -1,5 +1,5 @@
 import express from "express";
-import { loginAdmin } from "../controllers/adminController";
+import { loginAdmin } from "../controllers/adminController.js";
 import dotenv from "dotenv";
 
 dotenv.config();

@@ -1,12 +1,12 @@
 import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
-import adminRoutes from "./dashboard/routes/adminRoutes";
-import dashboardRoutes from "./dashboard/routes/routes";
-import authRoutes from "./general/routes/authRoutes";
-import generalRoutes from "./general/routes/routes";
-import { connectDB } from "./config/db";
-import { protect } from "./middleware/authMiddleware";
+import adminRoutes from "./dashboard/routes/adminRoutes.js";
+import dashboardRoutes from "./dashboard/routes/routes.js";
+import authRoutes from "./general/routes/authRoutes.js";
+import generalRoutes from "./general/routes/routes.js";
+import { connectDB } from "./config/db.js";
+import { protect } from "./middleware/authMiddleware.js";
 
 dotenv.config();
 
